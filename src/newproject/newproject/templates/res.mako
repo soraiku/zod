@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>Horoscopp</title>
+</head>
+<body>
+    <table>
+    <tr><td><img src="./static/${imatges}"></td><td> <h1>${horoscop}</h1></td></tr>
+    <tr><td colspan=2>${frase}</td></tr>
+    </table>
+</body>
+</html>
