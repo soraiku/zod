@@ -30,6 +30,10 @@ def make_app():
   
   config.add_route('resultat', '/resultat')
   config.add_view(views.zodiac_view, route_name='resultat', renderer='res.mako')
+
+  config.add_route('guestView', '/guestView')
+  config.add_view(views.guestView_view, route_name='guestView', renderer='guestView.mako')
+  
   return config.make_wsgi_app()
 
 application = make_app()
